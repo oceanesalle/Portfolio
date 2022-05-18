@@ -4,7 +4,7 @@ import Button from './Button'
 import profile from '../../assets/profilepic.jpg'
 import HeaderSocials from './HeaderSocials'
 
-function Header() {
+const Header = () => {
   return (
     <header>
       <div className="container header__container">

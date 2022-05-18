@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Blog() {
+const Blog = () => {
   return (
-    <div>Blog</div>
+    <section id ='blog'>Blog</section>
   )
 }
 
