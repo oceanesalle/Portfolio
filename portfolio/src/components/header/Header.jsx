@@ -18,6 +18,14 @@ const Header = () => {
             <img src={profile} alt="profile" />
           </div>
         
+        <div className='presentation'>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Soluta architecto neque quo vel sint amet repellendus quos iusto, 
+          nesciunt reprehenderit voluptate tempore illo voluptatem accusamus? 
+          Dolorum minima placeat tenetur. Repellat.
+        </p>
+        </div>
           
       </div>
     </header>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/header/Header'
 import Navbar from './components/navbar/Navbar'
+import Skills from './components/skills/Skills'
 import Contact from './components/contact/Contact'
 import Portfolio from './components/portfolio/Portfolio'
 import Services from './components/services/Services'
@@ -14,6 +15,7 @@ const App = () => {
     <div>
       <Header/>
       <Navbar />
+      <Skills/>
       <Contact/>
       <Portfolio/>
       <Services/>

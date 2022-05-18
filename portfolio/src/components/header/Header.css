@@ -48,12 +48,20 @@ header {
   border-radius: 12rem 12rem 0 0; 
   overflow: hidden; 
   padding: 5rem 1.5rem 1.5rem 1.5rem; 
-}
+} 
+
 
 /* ============== MQ (medium devices) =============== */ 
 @media screen and (max-width: 1024px) {
-  .header {
-    height: 68vh; 
+
+
+  .profile {
+    width: 50%;
+    margin: 2rem auto 4rem; 
+  }
+
+  .presentation {
+    margin: 1rem 0 1.5rem; 
   }
 }
 
@@ -62,5 +70,14 @@ header {
 @media screen and (max-width: 600px) {
   .header__socials {
     display: none;
+  }
+
+  .profile {
+    width: 65%;
+    margin: 0 auto 3rem; 
+  }
+
+  .presentation {
+    text-align: center;
   }
 }
