@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsLinkedin} from 'react-icons/bs'; 
 import {BsGithub} from 'react-icons/bs'; 
-import {AiOutlineInstagram} from 'react-icons/bs'; 
+import {AiOutlineInstagram} from 'react-icons/ai'; 
 
 function HeaderSocials() {
   return (

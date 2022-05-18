@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.css'
+import './Header.css'
 import Button from './Button'
 import profile from '../../assets/profilepic.jpg'
 import HeaderSocials from './HeaderSocials'
@@ -14,12 +14,10 @@ function Header() {
         <Button />
         <HeaderSocials />
 
-          <div className="me">
+          <div className="profile">
             <img src={profile} alt="profile" />
           </div>
-
-          <a href="#contact" clasName="scroll__down">Scroll Down</a>
-
+        
           
       </div>
     </header>
