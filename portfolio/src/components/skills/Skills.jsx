@@ -1,6 +1,6 @@
 import React from 'react'
 import './Skills.css'
-import {GiSkills} from 'react-icons/gi'
+import {GrValidate} from 'react-icons/gr'
 
 const Skills = () => {
   return (
@@ -8,17 +8,51 @@ const Skills = () => {
      <h5>What Skills I have </h5>
      <h2>My Experience</h2>
 
-     <div className="container experience__container">
-       <div className="experience__frontend">
+     <div className="container skills__container">
+       <div className="skills__frontend">
        <h3>Frontend Development</h3>
-       <div className="experience__content">
-         <article className="experience__details">
-           <GiSkills/>
+       <div className="skills__content">
+         <article className="skills__details">
+           <GrValidate/>
+           <h4>HTML</h4>
+           <small className='text-light'>Experiencied</small> 
+         </article>
+         <article className="skills__details">
+           <GrValidate/>
+           <h4>CSS</h4>
+           <small className='text-light'>Experiencied</small> 
+         </article>
+         <article className="skills__details">
+           <GrValidate/>
+           <h4>Javascript</h4>
+           <small className='text-light'>Experiencied</small> 
+         </article>
+         <article className="skills__details">
+           <GrValidate/>
+           <h4>Tailwind</h4>
+           <small className='text-light'>Experiencied</small> 
          </article>
        </div>
        </div>
-       <div className="experience__backend">
-
+       <div className="skills__backend">
+       <h3>Backend Development</h3>
+       <div className="skills__content">
+         <article className="skills__details">
+           <GrValidate/>
+           <h4>Nodejs</h4>
+           <small className='text-light'>Experiencied</small> 
+         </article>
+         <article className="skills__details">
+           <GrValidate/>
+           <h4>Expressjs</h4>
+           <small className='text-light'>Experiencied</small> 
+         </article>
+         <article className="skills__details">
+           <GrValidate/>
+           <h4>Mysql</h4>
+           <small className='text-light'>Experiencied</small> 
+         </article>
+       </div>
        </div>
      </div>
    </section>
