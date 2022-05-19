@@ -13,24 +13,32 @@ const Skills = () => {
        <h3>Frontend Development</h3>
        <div className="skills__content">
          <article className="skills__details">
-           <GrValidate/>
+           <GrValidate className='skills__details-icon'/>
+           <div>
            <h4>HTML</h4>
            <small className='text-light'>Experiencied</small> 
+           </div>
          </article>
          <article className="skills__details">
-           <GrValidate/>
+           <GrValidate className='skills__details-icon'/>
+           <div>
            <h4>CSS</h4>
            <small className='text-light'>Experiencied</small> 
+           </div>
          </article>
          <article className="skills__details">
-           <GrValidate/>
+           <GrValidate className='skills__details-icon'/>
+           <div>
            <h4>Javascript</h4>
            <small className='text-light'>Experiencied</small> 
+           </div>
          </article>
          <article className="skills__details">
-           <GrValidate/>
+           <GrValidate className='skills__details-icon'/>
+           <div>
            <h4>Tailwind</h4>
            <small className='text-light'>Experiencied</small> 
+           </div>
          </article>
        </div>
        </div>
@@ -38,19 +46,25 @@ const Skills = () => {
        <h3>Backend Development</h3>
        <div className="skills__content">
          <article className="skills__details">
-           <GrValidate/>
+           <GrValidate className='skills__details-icon'/>
+           <div>
            <h4>Nodejs</h4>
            <small className='text-light'>Experiencied</small> 
+           </div>
          </article>
          <article className="skills__details">
-           <GrValidate/>
+           <GrValidate className='skills__details-icon'/>
+           <div>
            <h4>Expressjs</h4>
            <small className='text-light'>Experiencied</small> 
+           </div>
          </article>
          <article className="skills__details">
-           <GrValidate/>
+           <GrValidate className='skills__details-icon'/>
+           <div>
            <h4>Mysql</h4>
            <small className='text-light'>Experiencied</small> 
+           </div>
          </article>
        </div>
        </div>
