@@ -5,7 +5,7 @@ import {BsInstagram} from 'react-icons/bs'
 import {FaWhatsappSquare} from 'react-icons/fa'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'; 
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const form = useRef(); 
@@ -13,7 +13,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_USER_ID')
+    emailjs.sendForm('service_ye55y82', 'template_ls171c4', form.current, 'YOUR_USER_ID')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
