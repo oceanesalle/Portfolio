@@ -14,25 +14,25 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <FiMail/>
+            <FiMail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>oceanesapro@gmail.com</h5>
              <a href="mailto:oceansapro@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         <article className="contact__option">
-            <BsInstagram/>
+            <BsInstagram  className='contact__option-icon'/>
             <h4>Instagram</h4>
             <h5>oceansle</h5>
             <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         <article className="contact__option">
-            <FaWhatsappSquare/>
+            <FaWhatsappSquare className='contact__option-icon'/>
             <h4>Whatapp</h4>
             <h5>+33766724540</h5>
              <a href="https://api.whatsapp.com/send?phone=+33766724540" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         <article className="contact__option">
-            <AiOutlineLinkedin/>
+            <AiOutlineLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>Océane Sallé </h5>
              <a href="https://www.linkedin.com/oceanesalle/" target="_blank" rel="noreferrer">Send a message</a>
