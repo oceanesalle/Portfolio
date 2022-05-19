@@ -8,7 +8,7 @@ header {
   text-align: center; 
   height: 100%; 
   position: relative; 
-}
+} 
 
 /* ============== button ============== */
 
@@ -17,7 +17,10 @@ header {
   display: flex; 
   gap: 1.2rem; 
   justify-content: center;
+  border: 0;
+  outline: 0;
 }
+
 
 /* ============== HEADER SOCIALS ============== */
 .header__socials{
@@ -37,8 +40,9 @@ header {
   background: var(--color-primary); 
 }
 
+
 /* ============== PROFILEPIC ============== */
-.profile {
+/*.profile {
   background: linear-gradient(var (--color-primary), transparent);
   width: 22rem; 
   height: 30rem; 
@@ -48,20 +52,37 @@ header {
   border-radius: 12rem 12rem 0 0; 
   overflow: hidden; 
   padding: 5rem 1.5rem 1.5rem 1.5rem; 
-} 
+} */ 
+
+.profilegrid {
+  margin-top: 2cm;
+  display: grid;
+  grid-template-columns: 35% 50%; 
+  gap: 15%; 
+}
+
+.profile {
+  border-radius: 1.4rem;
+  position: absolute;
+  width: 30%;
+  left: 4cm;
+}
+
+.presentation {
+  margin-top: 1.5cm;
+  margin-left: 3cm;
+  align-content: flex-start;
+  position: relative;
+  left: 14cm; 
+}
+
 
 
 /* ============== MQ (medium devices) =============== */ 
 @media screen and (max-width: 1024px) {
-
-
   .profile {
     width: 50%;
     margin: 2rem auto 4rem; 
-  }
-
-  .presentation {
-    margin: 1rem 0 1.5rem; 
   }
 }
 
@@ -72,12 +93,10 @@ header {
     display: none;
   }
 
-  .profile {
-    width: 65%;
-    margin: 0 auto 3rem; 
+ .profile {
+   align-items: center;
+    width: 70%;
+    /*margin: 0 auto 3rem; */
   }
 
-  .presentation {
-    text-align: center;
-  }
 }

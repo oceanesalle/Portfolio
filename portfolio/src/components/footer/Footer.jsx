@@ -6,9 +6,9 @@ import {AiFillLinkedin} from 'react-icons/ai'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>OCEANE</a>
+      <a href="#logo" className='footer__logo'>OCEANE</a>
       <ul className="permalinks">
-        <li><a href="#home">home</a></li>
+        <li><a href="#header">Profile</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#blog">Blog</a></li>

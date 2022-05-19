@@ -17,27 +17,27 @@ const Services = () => {
           <ul className="service__list">
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Création et gestion de site internet.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Site vitrine ou e-commerce.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Application web et web mobile.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Renouvellement de site existant.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Portfolio et CV en ligne.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Création de site one page.</p>
             </li>
           </ul>
         </article>
@@ -48,29 +48,21 @@ const Services = () => {
           </div>
           
           <ul className="service__list">
-            <li>
+          <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Création d'interfaces de site Web et d'application.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Réalisation de maquette.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Conception d'une interface centrée utilisateur.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </li>
-            <li>
-            <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </li>
-            <li>
-            <BsCheck2All className='service__list-icon'/> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p>Optimisation de l'expérience utilisateur.</p>
             </li>
           </ul>
         </article>

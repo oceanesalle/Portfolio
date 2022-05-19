@@ -23,8 +23,8 @@ const Contact = () => {
 
   return (
     <section id ='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Disponible par mail, sms, message instagram et whatsapp</h5>
+      <h2>Me contacter</h2>
 
       <div className="container contact__container">
         <div className="contact__options">

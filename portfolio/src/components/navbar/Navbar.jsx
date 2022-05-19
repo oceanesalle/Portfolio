@@ -11,11 +11,11 @@ const Navbar = ()  => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <navbar>
-      <a href="#home" onClick={() => setActiveNav ('#')} className={activeNav === '#' ? 'active' : ''}><FaUserGraduate/></a>
+      <a href="#header" onClick={() => setActiveNav ('#header')} className={activeNav === '#' ? 'active' : ''}><FaUserGraduate/></a>
       <a href="#blog" onClick={() => setActiveNav ('#blog')} className={activeNav === '#' ? 'active' : ''} ><ImBooks/></a>
-      <a href="#services" onClick={() => setActiveNav ('#blog')} className={activeNav === '#' ? 'active' : ''}><AiFillGift/></a>
-      <a href="#portfolio" onClick={() => setActiveNav ('#blog')} className={activeNav === '#' ? 'active' : ''} ><AiOutlineFileDone/></a>
-      <a href="#contact" onClick={() => setActiveNav ('#blog')} className={activeNav === '#' ? 'active' : ''}><AiOutlineMessage/></a>
+      <a href="#services" onClick={() => setActiveNav ('#services')} className={activeNav === '#' ? 'active' : ''}><AiFillGift/></a>
+      <a href="#skills" onClick={() => setActiveNav ('#skills')} className={activeNav === '#' ? 'active' : ''} ><AiOutlineFileDone/></a>
+      <a href="#contact" onClick={() => setActiveNav ('#contact')} className={activeNav === '#' ? 'active' : ''}><AiOutlineMessage/></a>
     </navbar>
   )
 }

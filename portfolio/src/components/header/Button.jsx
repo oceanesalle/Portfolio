@@ -6,7 +6,7 @@ function button() {
     <div className="button">
       <a href={CV} download className='btn'> Download CV</a>
     </div>
-  )
+  ) 
 }
 
 export default button
