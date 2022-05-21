@@ -1,4 +1,4 @@
-header {
+/* header {
   height: 100vh; 
   padding-top: 7rem;
   overflow: hidden; 
@@ -9,21 +9,10 @@ header {
   height: 100%; 
   position: relative; 
 } 
-
-/* ============== button ============== */
-
-.button {
-  margin-top: 2.5rem;
-  display: flex; 
-  gap: 1.2rem; 
-  justify-content: center;
-  border: 0;
-  outline: 0;
-}
-
+*/
 
 /* ============== HEADER SOCIALS ============== */
-.header__socials{
+/* .header__socials{
   display: flex; 
   flex-direction: column;
   align-items: center;
@@ -54,7 +43,7 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem; 
 } */ 
 
-.profilegrid {
+/* .profilegrid {
   margin-top: 2cm;
   display: grid;
   grid-template-columns: 35% 50%; 
@@ -68,35 +57,130 @@ header {
   left: 4cm;
 }
 
-.presentation {
-  margin-top: 1.5cm;
-  margin-left: 3cm;
-  align-content: flex-start;
-  position: relative;
-  left: 14cm; 
-}
+
 
 
 
 /* ============== MQ (medium devices) =============== */ 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {}
+ 
+/* }
   .profile {
     width: 50%;
     margin: 2rem auto 4rem; 
-  }
-}
-
+  }*/
 
 /* ============== MQ (small devices) =============== */ 
-@media screen and (max-width: 600px) {
-  .header__socials {
+@media screen and (max-width: 600px) {}
+ /* .header__socials {
+    display: none;
+  } */
+
+
+ .header__content__titles {
+  padding-top: 5rem;
+  text-align: center; 
+}
+
+.header__content {
+  padding-top: 3.5rem; 
+}
+
+/*
+
+.header__socials {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem; 
+  position: absolute; 
+  left: 6rem; 
+  bottom: 9rem; 
+}
+
+.profile__picture {
+  width: 270px;
+  display: block;
+  margin-left: 10rem; 
+}
+
+.header__description {
+  margin-bottom: var(--mb-2); 
+}
+
+.profile__grid {
+  display: grid;
+  grid-template-columns: 42% 52%; 
+  gap: 10%;
+}
+
+*/ 
+/* ============== MQ (small devices) =============== */ 
+@media screen and (max-width: 600px) {}
+/*.header__socials {
     display: none;
   }
 
- .profile {
-   align-items: center;
-    width: 70%;
-    /*margin: 0 auto 3rem; */
+  .profile__picture {
+    width: 300px;
+    order: 1; 
+    justify-self: center;
+  }
+  .header__content {
+    margin-left: auto;
+    margin-right: auto;
   }
 
+
+/* ============== MQ (medium devices) =============== */ 
+@media screen and (max-width: 1024px) {}
+ 
+/* }
+  .profile {
+    width: 50%;
+    margin: 2rem auto 4rem; 
+  }*/
+
+
+.header__content {
+  display:grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%; 
+}
+
+.about__me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.about__content p {
+  margin: 2rem 0 2.6rem; 
+  color: var(--color-light); 
+}
+
+/* ============== MQ (small devices) =============== */ 
+@media screen and (max-width: 600px) {
+.about__me-image {
+  width: 65%;
+  margin: 0rem auto 3rem;
+}
+.about__content p {
+  margin: 1.5rem 0;
+}
+}
+
+/* ============== MQ (medium devices) =============== */ 
+@media screen and (max-width: 1024px) {
+  .header__content {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__me-image {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about__content p {
+    margin: 1rem 0 1.5rem;
+  }
 }
