@@ -17,15 +17,16 @@ const Header = () => {
           </div>
         
         <div className='about__content'>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Praesentium quas, voluptatum repellat asperiores voluptate aliquid. 
-          Dignissimos omnis ipsam nostrum nesciunt quasi amet nemo, vel nam aperiam veritatis, 
-          totam ullam illo. </p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Praesentium quas, voluptatum repellat asperiores voluptate aliquid. 
-          Dignissimos omnis ipsam nostrum nesciunt quasi amet nemo, vel nam aperiam veritatis, 
-          totam ullam illo. </p>
-          <p> 🔴 Prise de rendez-vous à partir du 1er aout 2022.</p>
+        <p><strong><i>"La réussite commence par l'investissement sur soi-même".</i></strong></p>
+        <p>En qualité de développeuse, ma mission est de créer et de développer tout type de plateforme internet et mobile en fonction de vos besoins, du public ciblé et surtout, 
+          de créer une plateforme à votre image. <br/>
+           Mes services s'adressent aux particuliers ainsi qu'aux entreprises. 
+        </p>
+           
+           <p>Je parle anglais et français et je suis disponible pour toute mission en France et à l'étranger. <br/>
+            Afin que nous puissions discuter de votre projet, veuillez vous rendre dans l’espace contact. <br/>
+            ❗️ La prise de rendez-vous est disponible à partir du 1er juillet 2022.</p>
+
         </div>
         </div>
 

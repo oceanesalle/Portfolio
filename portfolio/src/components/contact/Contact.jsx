@@ -13,7 +13,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ye55y82', 'template_ls171c4', form.current, 'YOUR_USER_ID')
+    emailjs.sendForm('gmail', 'template_ls171c4', form.current, 'LVL-3N7_BAKQwKDGl')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <section id ='contact'>
-      <h5>Disponible par mail, sms, message instagram et whatsapp</h5>
+      <h5>Je suis disponible par mail, sms, message instagram et whatsapp</h5>
       <h2>Me contacter</h2>
 
       <div className="container contact__container">
@@ -44,13 +44,13 @@ const Contact = () => {
             <FaWhatsappSquare className='contact__option-icon'/>
             <h4>Whatapp</h4>
             <h5>+33766724540</h5>
-             <a href="https://api.whatsapp.com/send?phone=+33766724540" target="_blank" rel="noreferrer">Send a message</a>
+             <a href="https://api.whatsapp.com/send?phone=33766724540" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         <article className="contact__option">
             <AiOutlineLinkedin className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>Océane Sallé </h5>
-             <a href="https://www.linkedin.com/oceanesalle/" target="_blank" rel="noreferrer">Send a message</a>
+             <a href="https://www.linkedin.com/in/oceanesalle/" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         </div>
 

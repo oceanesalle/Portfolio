@@ -6,7 +6,7 @@ import {MdOutlineTaskAlt} from 'react-icons/md'
 const Blog = () => {
   return (
     <section id ='step'>
-      <h5>Améliorer ses conditions de travail</h5>
+      <h5>Du premier contact au produit final</h5>
       <h2>Les étapes du développement</h2>
 
       <div className="container step__container">
@@ -22,7 +22,7 @@ const Blog = () => {
             </li>
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
-            <p>Déterminer les objectifs à atteindre</p>
+            <p>On déterminer les objectifs à atteindre</p>
             </li>
             </ul>
           </article>
@@ -39,20 +39,20 @@ const Blog = () => {
             </li>
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
-            <p>Architecture de la base de données</p>
+            <p>Architecture de la base de données (si besoin)</p>
             </li>
             </ul>
           </article>
 
           <article className="step">
           <div className="step__head">
-            <h3>UX/UI Design</h3>
+            <h3>3️⃣ UX/UI Design</h3>
             </div>
 
             <ul className="step__list"> 
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
-            <p>Wireframe</p>
+            <p>Création du wireframe</p>
             </li>
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
@@ -63,7 +63,7 @@ const Blog = () => {
 
           <article className="step">
           <div className="step__head">
-            <h3>1️⃣ Codage</h3>
+            <h3>4️⃣ Codage</h3>
             </div>
 
             <ul className="step__list"> 
@@ -73,17 +73,21 @@ const Blog = () => {
             </li>
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
-            <p>Développement backend</p>
+            <p>Développement backend (si besoin)</p>
             </li>
             </ul>
           </article>
 
           <article className="step">
           <div className="step__head">
-            <h3>1️⃣ Test, débug et déploiement</h3>
+            <h3>5️⃣Débug et déploiement</h3>
             </div>
 
             <ul className="step__list"> 
+            <li>
+            <MdOutlineTaskAlt className='step__list-icon'/> 
+            <p>Résolution de potentiel bug</p>
+            </li>
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
             <p>Mise en ligne du site ou de l'application</p>
@@ -93,7 +97,7 @@ const Blog = () => {
 
           <article className="step">
           <div className="step__head">
-            <h3>Maintenance</h3>
+            <h3>6️⃣ Maintenance</h3>
             </div>
 
             <ul className="step__list"> 
@@ -107,13 +111,10 @@ const Blog = () => {
             </li>
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
-            <p>Rectifications de potentiels erreurs</p>
+            <p>Rectifications de potentielles erreurs</p>
             </li>
             </ul>
-          </article>
-
-
-          
+          </article>       
       </div> 
 
     </section>

@@ -5,13 +5,13 @@ import {BsCheck2All} from 'react-icons/bs'
 const Services = () => {
   return (
     <section id ='services'>
-      <h5>What I offer</h5>
+      <h5>Mes services</h5>
       <h2>Services</h2>
 
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Web development</h3>
+            <h3>Développement web</h3>
           </div>
           
           <ul className="service__list">
@@ -25,11 +25,11 @@ const Services = () => {
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Application web et web mobile.</p>
+            <p>Application web et application mobile.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Renouvellement de site existant.</p>
+            <p>Restauration de site existant.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
@@ -58,7 +58,7 @@ const Services = () => {
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
-            <p>Conception d'une interface centrée utilisateur.</p>
+            <p>Conception d'interface centrée utilisateur.</p>
             </li>
             <li>
             <BsCheck2All className='service__list-icon'/> 
