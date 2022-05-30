@@ -38,11 +38,11 @@ const Contact = () => {
             <BsInstagram  className='contact__option-icon'/>
             <h4>Instagram</h4>
             <h5>oceansle</h5>
-            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Send a message</a>
+            <a href="https://www.instagram.com/oceansle/" target="_blank" rel="noreferrer">Send a message</a>
         </article>
         <article className="contact__option">
             <FaWhatsappSquare className='contact__option-icon'/>
-            <h4>Whatapp</h4>
+            <h4>Whatsapp</h4>
             <h5>+33766724540</h5>
              <a href="https://api.whatsapp.com/send?phone=33766724540" target="_blank" rel="noreferrer">Send a message</a>
         </article>

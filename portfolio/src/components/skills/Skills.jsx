@@ -78,13 +78,6 @@ const Skills = () => {
          <article className="skills__details">
            <BsPatchCheck className='skills__details-icon'/>
            <div>
-           <h4>Photoshop</h4>
-           <small className='text-light'>Compétent</small> 
-           </div>
-         </article>
-         <article className="skills__details">
-           <BsPatchCheck className='skills__details-icon'/>
-           <div>
            <h4>Wordpress</h4>
            <small className='text-light'>Compétent</small> 
            </div>
@@ -101,6 +94,13 @@ const Skills = () => {
            <div>
            <h4>Figma</h4>
            <small className='text-light'>Compétent</small> 
+           </div>
+         </article>
+         <article className="skills__details">
+           <BsPatchCheck className='skills__details-icon'/>
+           <div>
+           <h4>Photoshop</h4>
+           <small className='text-light'>Débutante</small> 
            </div>
          </article>
        </div>
