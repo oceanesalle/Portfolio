@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import profile from '../../assets/profilepic.jpg'
+import profile from '../../assets/pic1.jpg'
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container header__container">
         <div className="header__content__titles">
         <h1>Océane Sallé</h1>
-        <h5 className="text-light">Développeuse web full-stack</h5> 
+        <h5 className="text-light">Développeuse web Full Stack</h5> 
         </div>
         
       <div className="header__content">
@@ -24,7 +24,7 @@ const Header = () => {
         </p>
            
            <p>Je parle anglais et français et je suis disponible pour toute mission en France et à l'étranger. <br/>
-            Afin que nous puissions discuter de votre projet, veuillez vous rendre dans l’espace contact. <br/>
+            Afin que nous puissions discuter de votre projet, veuillez vous rendre à l’espace contact. <br/>
             ❗️ La prise de rendez-vous est disponible à partir du 1er juillet 2022.</p>
 
         </div>

@@ -6,7 +6,7 @@ import {MdOutlineTaskAlt} from 'react-icons/md'
 const Blog = () => {
   return (
     <section id ='step'>
-      <h5>Du premier contact au produit final</h5>
+      <h5>Du premier contact à la réalisation finale</h5>
       <h2>Les étapes du développement</h2>
 
       <div className="container step__container">
@@ -86,7 +86,7 @@ const Blog = () => {
             <ul className="step__list"> 
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
-            <p>Résolution de potentiel bug</p>
+            <p>Résolution de bug</p>
             </li>
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
@@ -107,11 +107,7 @@ const Blog = () => {
             </li>
             <li>
             <MdOutlineTaskAlt className='step__list-icon'/> 
-            <p>Résolution de bugs</p>
-            </li>
-            <li>
-            <MdOutlineTaskAlt className='step__list-icon'/> 
-            <p>Rectifications de potentielles erreurs</p>
+            <p>Rectification d'erreur</p>
             </li>
             </ul>
           </article>       

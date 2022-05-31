@@ -6,26 +6,26 @@ const Skills = () => {
   return (
    <section id="skills">
      
-     <h5>Mes branches dans le développement web</h5>
-     <h2>Mes compétences</h2>
+     <h5>Mes compétences en développement web</h5>
+     <h2>Compétences</h2>
      
 
      <div className="container skills__container">
        <div className="skills__frontend">
-       <h3>Frontend Development</h3>
+       <h3>Développement Frontend</h3>
        <div className="skills__content">
          <article className="skills__details">
            <BsPatchCheck className='skills__details-icon'/>
            <div>
            <h4>Javascript</h4>
-            <small className='text-light'>8 projets</small> 
+            <small className='text-light'>10 projets</small> 
            </div>
          </article>
          <article className="skills__details">
            <BsPatchCheck className='skills__details-icon'/>
            <div>
            <h4>React</h4> 
-           <small className='text-light'>5 projets</small> 
+           <small className='text-light'>8 projets</small> 
            </div>
          </article>
          <article className="skills__details">
@@ -46,7 +46,7 @@ const Skills = () => {
        </div>
        
        <div className="skills__backend">
-       <h3>Backend Development</h3>
+       <h3>Développement Backend</h3>
        <div className="skills__content">
          <article className="skills__details">
            <BsPatchCheck className='skills__details-icon'/>
@@ -66,7 +66,7 @@ const Skills = () => {
            <BsPatchCheck className='skills__details-icon'/>
            <div>
            <h4>PHP</h4>
-           <small className='text-light'>Débutant</small> 
+           <small className='text-light'>Débutante</small> 
            </div>
          </article>
        </div>
@@ -79,21 +79,21 @@ const Skills = () => {
            <BsPatchCheck className='skills__details-icon'/>
            <div>
            <h4>Wordpress</h4>
-           <small className='text-light'>Compétent</small> 
+           <small className='text-light'>Compétente</small> 
            </div>
          </article>
          <article className="skills__details">
            <BsPatchCheck className='skills__details-icon'/>
            <div>
            <h4>Tailwind</h4>
-           <small className='text-light'>Compétent</small> 
+           <small className='text-light'>Compétente</small> 
            </div>
          </article>
          <article className="skills__details">
            <BsPatchCheck className='skills__details-icon'/>
            <div>
            <h4>Figma</h4>
-           <small className='text-light'>Compétent</small> 
+           <small className='text-light'>Compétente</small> 
            </div>
          </article>
          <article className="skills__details">
